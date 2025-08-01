@@ -19,8 +19,8 @@ public class CatalogSteps {
 
 	public CatalogSteps(TestContext testContext) {
 	        cp = testContext.getCatalogPage();
-
-
+		loginPage=testContext.getLoginPage();
+		commonPageCMS=testContext.getCommonPage();
 	   }
 
 	   @Given("User navigate to Login Page for Admin {string}")
